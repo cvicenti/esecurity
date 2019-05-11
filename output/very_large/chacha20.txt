@@ -1,0 +1,37 @@
+pi@raspberrypi:~/esecurity/esecurity/stream $ for i in `seq 1 5`; do python benchmark.py ../input-examples/very_large.txt $key 12345678 2 1 && mv ../output/very_large/Chacha20Cipher.dat ../output/very_large/round${i}_Chacha20Cipher.dat  ; done
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+2
+metrics written at :  ../output/very_large/Chacha20Cipher.dat
+Algorithm chosen:  Chacha20Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 0.000817060470581 seconds
+File encrypted in: 305.236887932 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+2
+metrics written at :  ../output/very_large/Chacha20Cipher.dat
+Algorithm chosen:  Chacha20Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 0.00070595741272 seconds
+File encrypted in: 304.084125042 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+2
+metrics written at :  ../output/very_large/Chacha20Cipher.dat
+Algorithm chosen:  Chacha20Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 0.00058913230896 seconds
+File encrypted in: 309.033162832 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+2
+metrics written at :  ../output/very_large/Chacha20Cipher.dat
+Algorithm chosen:  Chacha20Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 0.000767946243286 seconds
+File encrypted in: 308.8089149 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+2
+metrics written at :  ../output/very_large/Chacha20Cipher.dat
+Algorithm chosen:  Chacha20Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 0.000792980194092 seconds
+File encrypted in: 319.490700006 seconds
+
