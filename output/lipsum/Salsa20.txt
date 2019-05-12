@@ -1,0 +1,37 @@
+pi@raspberrypi:~/esecurity/esecurity/stream $ for i in `seq 1 5`; do python benchmark.py ../input-examples/lipsum.txt e3b0c44298fc1c149afbf4c8996fb924 12345678 1 1 && mv ../output/lipsum/Salsa20Cipher.dat ../output/lipsum/round${i}_Salsa20Cipher.dat; done
+Ce3b0c44298fc1c149afbf4c8996fb924 12345678
+1
+metrics written at :  ../output/lipsum/Salsa20Cipher.dat
+Algorithm chosen:  Salsa20Cipher
+Reading from:  ../input-examples/lipsum.txt
+Setup completed in: 0.00080394744873 seconds
+File encrypted in: 28.6668550968 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+1
+metrics written at :  ../output/lipsum/Salsa20Cipher.dat
+Algorithm chosen:  Salsa20Cipher
+Reading from:  ../input-examples/lipsum.txt
+Setup completed in: 0.000685214996338 seconds
+File encrypted in: 31.2976810932 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+1
+metrics written at :  ../output/lipsum/Salsa20Cipher.dat
+Algorithm chosen:  Salsa20Cipher
+Reading from:  ../input-examples/lipsum.txt
+Setup completed in: 0.000925064086914 seconds
+File encrypted in: 29.4682040215 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+1
+metrics written at :  ../output/lipsum/Salsa20Cipher.dat
+Algorithm chosen:  Salsa20Cipher
+Reading from:  ../input-examples/lipsum.txt
+Setup completed in: 0.000888109207153 seconds
+File encrypted in: 29.5774121284 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+1
+metrics written at :  ../output/lipsum/Salsa20Cipher.dat
+Algorithm chosen:  Salsa20Cipher
+Reading from:  ../input-examples/lipsum.txt
+Setup completed in: 0.000776052474976 seconds
+File encrypted in: 28.4590361118 seconds
+
