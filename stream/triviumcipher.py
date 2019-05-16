@@ -4,9 +4,7 @@ import time
 from collections import deque
 from itertools import repeat
 
-# Funciones globales de conversion HEX2BYTES, HEX2BITS y BITS2HEX
-# Convert strings of hex to strings of bytes and back, little-endian style
-import psutil
+# Code adapted from https://github.com/mortasoft/Trivium
 
 from StreamCipher import StreamCipher
 
@@ -57,7 +55,6 @@ class TriviumCipher(StreamCipher):
             self._gen_keystream()
 
     def encrypt(self, message):
-        # plaintext = remove_accents(message).upper()
         plaintext_hex = message.encode('hex').upper()
         plaintext_bin = hex_to_bits(plaintext_hex)
 
@@ -69,27 +66,18 @@ class TriviumCipher(StreamCipher):
 
 
     def decrypt(self, cipher):
-        ciphertext_bin = []
+
         plaintext_bin = []
-        # if (any(c.isalpha() for c in cipher)):
         ciphertext_bin = hex_to_bits(cipher)
         for i in range(len(ciphertext_bin)):
             plaintext_bin.append(self._gen_keystream() ^ ciphertext_bin[i])
-        # else:
-        # ciphertext_bin = list(str(cipher))
-        # for i in range(len(ciphertext_bin)):
-        #     plaintext_bin.append(self._gen_keystream() ^ int(ciphertext_bin[i]))
+
         plaintext_hex = bits_to_hex(plaintext_bin)
         plaintext = plaintext_hex.decode('hex')
         print(plaintext, file=self.output_file, end=" ")
         return plaintext
 
     def prepare_keys(self, key, nonce):
-        # todo rename vars here
-        print("prepare keys")
-        print(key)
-        print(nonce)
-        print("prepare keys")
 
         key_hex = key.encode('hex').upper()
         iv_hex = nonce.encode('hex').upper()

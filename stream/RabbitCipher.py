@@ -4,7 +4,7 @@ import time
 
 from StreamCipher import StreamCipher
 
-
+# This class is an adaptation from https://asecuritysite.com/encryption/rabbit2
 def enc_long(n):
     '''Encodes arbitrarily large number n to a sequence of bytes.
     Big endian byte order is used.'''
