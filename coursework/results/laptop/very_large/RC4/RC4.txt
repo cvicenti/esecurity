@@ -1,0 +1,37 @@
+carlos@ubuntu:~/PycharmProjects/esecurity/stream$ for i in `seq 1 5`; do python benchmark.py ../input-examples/very_large.txt $key 12345678 0 1 && cp ../output/very_large/RC4Cipher.dat ../output/very_large/round${i}_RC4Cipher.dat  ; done
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+0
+metrics written at :  ../output/very_large/RC4Cipher.dat
+Algorithm chosen:  RC4Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 6.00814819336e-05 seconds
+File encrypted in: 22.4100289345 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+0
+metrics written at :  ../output/very_large/RC4Cipher.dat
+Algorithm chosen:  RC4Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 6.31809234619e-05 seconds
+File encrypted in: 22.0986299515 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+0
+metrics written at :  ../output/very_large/RC4Cipher.dat
+Algorithm chosen:  RC4Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 6.50882720947e-05 seconds
+File encrypted in: 22.5751600266 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+0
+metrics written at :  ../output/very_large/RC4Cipher.dat
+Algorithm chosen:  RC4Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 7.70092010498e-05 seconds
+File encrypted in: 23.0661461353 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+0
+metrics written at :  ../output/very_large/RC4Cipher.dat
+Algorithm chosen:  RC4Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 6.69956207275e-05 seconds
+File encrypted in: 22.8607459068 seconds
+

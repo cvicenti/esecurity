@@ -1,0 +1,82 @@
+pi@raspberrypi:~/esecurity/esecurity/stream $ for i in `seq 1 5`; do python benchmark.py ../input-examples/very_large.txt abcde^Ch 1234567890 3 1 && mv ../output/very_large/TriviumCipher.dat ../output/very_large/round${i}_Trivium.dat; done
+abcde^Ch 1234567890
+3
+prepare keys
+abcde^Ch
+1234567890
+prepare keys
+metrics written at :  ../output/very_large/TriviumCipher.dat
+Algorithm chosen:  TriviumCipher
+Reading from:  ../input-examples/very_large.txt
+prepare keys
+abcde^Ch
+1234567890
+prepare keys
+metrics written at :  ../output/very_large/TriviumCipher.dat
+Setup completed in: 0.0564670562744 seconds
+File processed in: 346.596657991 seconds
+abcde^Ch 1234567890
+3
+prepare keys
+abcde^Ch
+1234567890
+prepare keys
+metrics written at :  ../output/very_large/TriviumCipher.dat
+Algorithm chosen:  TriviumCipher
+Reading from:  ../input-examples/very_large.txt
+prepare keys
+abcde^Ch
+1234567890
+prepare keys
+metrics written at :  ../output/very_large/TriviumCipher.dat
+Setup completed in: 0.0609719753265 seconds
+File processed in: 353.453686953 seconds
+abcde^Ch 1234567890
+3
+prepare keys
+abcde^Ch
+1234567890
+prepare keys
+metrics written at :  ../output/very_large/TriviumCipher.dat
+Algorithm chosen:  TriviumCipher
+Reading from:  ../input-examples/very_large.txt
+prepare keys
+abcde^Ch
+1234567890
+prepare keys
+metrics written at :  ../output/very_large/TriviumCipher.dat
+Setup completed in: 0.0599701404572 seconds
+File processed in: 360.160118103 seconds
+abcde^Ch 1234567890
+3
+prepare keys
+abcde^Ch
+1234567890
+prepare keys
+metrics written at :  ../output/very_large/TriviumCipher.dat
+Algorithm chosen:  TriviumCipher
+Reading from:  ../input-examples/very_large.txt
+prepare keys
+abcde^Ch
+1234567890
+prepare keys
+metrics written at :  ../output/very_large/TriviumCipher.dat
+Setup completed in: 0.0581359863281 seconds
+File processed in: 364.592409134 seconds
+abcde^Ch 1234567890
+3
+prepare keys
+abcde^Ch
+1234567890
+prepare keys
+metrics written at :  ../output/very_large/TriviumCipher.dat
+Algorithm chosen:  TriviumCipher
+Reading from:  ../input-examples/very_large.txt
+prepare keys
+abcde^Ch
+1234567890
+prepare keys
+metrics written at :  ../output/very_large/TriviumCipher.dat
+Setup completed in: 0.0602161884308 seconds
+File processed in: 359.029150963 seconds
+

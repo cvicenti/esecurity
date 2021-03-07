@@ -1,0 +1,127 @@
+carlos@ubuntu:~/PycharmProjects/esecurity/stream$ for i in `seq 1 5`; do python benchmark.py ../input-examples/very_large.txt $key 12345678 1 1 && cp ../output/very_large/Salsa20Cipher.dat ../output/very_large/round${i}_Salsa20Cipher.dat  ; done
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+1
+metrics written at :  ../output/very_large/Salsa20Cipher.dat
+Algorithm chosen:  Salsa20Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 7.00950622559e-05 seconds
+File encrypted in: 21.8835020065 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+1
+metrics written at :  ../output/very_large/Salsa20Cipher.dat
+Algorithm chosen:  Salsa20Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 7.39097595215e-05 seconds
+File encrypted in: 22.0712499619 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+1
+metrics written at :  ../output/very_large/Salsa20Cipher.dat
+Algorithm chosen:  Salsa20Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 6.69956207275e-05 seconds
+File encrypted in: 21.9895620346 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+1
+metrics written at :  ../output/very_large/Salsa20Cipher.dat
+Algorithm chosen:  Salsa20Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 7.20024108887e-05 seconds
+File encrypted in: 22.0510530472 seconds
+e3b0c44298fc1c149afbf4c8996fb924 12345678
+1
+metrics written at :  ../output/very_large/Salsa20Cipher.dat
+Algorithm chosen:  Salsa20Cipher
+Reading from:  ../input-examples/very_large.txt
+Setup completed in: 6.69956207275e-05 seconds
+File encrypted in: 20.7034370899 seconds
+
+
+
+
+
+
+
+
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+

@@ -1,0 +1,42 @@
+pi@raspberrypi:~/esecurity/esecurity/stream $ for i in `seq 1 5`; do python benchmark.py ../input-examples/lipsum.txt abcdefghijklmnop 12345678 4 1 && mv ../output/lipsum/RabbitCipher.dat ../output/lipsum/round${i}_Rabbit.dat; done
+abcdefghijklmnop 12345678
+4
+metrics written at :  ../output/lipsum/RabbitCipher.dat
+Algorithm chosen:  RabbitCipher
+Reading from:  ../input-examples/lipsum.txt
+metrics written at :  ../output/lipsum/RabbitCipher.dat
+Setup completed in: 0.00484919548035 seconds
+File processed in: 28.0414309502 seconds
+abcdefghijklmnop 12345678
+4
+metrics written at :  ../output/lipsum/RabbitCipher.dat
+Algorithm chosen:  RabbitCipher
+Reading from:  ../input-examples/lipsum.txt
+metrics written at :  ../output/lipsum/RabbitCipher.dat
+Setup completed in: 0.0070481300354 seconds
+File processed in: 27.9025239944 seconds
+abcdefghijklmnop 12345678
+4
+metrics written at :  ../output/lipsum/RabbitCipher.dat
+Algorithm chosen:  RabbitCipher
+Reading from:  ../input-examples/lipsum.txt
+metrics written at :  ../output/lipsum/RabbitCipher.dat
+Setup completed in: 0.00683903694153 seconds
+File processed in: 29.2118339539 seconds
+abcdefghijklmnop 12345678
+4
+metrics written at :  ../output/lipsum/RabbitCipher.dat
+Algorithm chosen:  RabbitCipher
+Reading from:  ../input-examples/lipsum.txt
+metrics written at :  ../output/lipsum/RabbitCipher.dat
+Setup completed in: 0.00437712669373 seconds
+File processed in: 27.1248941422 seconds
+abcdefghijklmnop 12345678
+4
+metrics written at :  ../output/lipsum/RabbitCipher.dat
+Algorithm chosen:  RabbitCipher
+Reading from:  ../input-examples/lipsum.txt
+metrics written at :  ../output/lipsum/RabbitCipher.dat
+Setup completed in: 0.00494313240051 seconds
+File processed in: 28.665915966 seconds
+
